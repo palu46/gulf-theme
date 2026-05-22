@@ -4,6 +4,12 @@ All notable changes to the "gulf-theme" extension will be documented in this fil
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-05-22
+
+### Added
+
+- Added the packaged extension icon for Marketplace and VS Code extension views.
+
 ## [1.0.0] - 2026-05-22
 
 ### Added
