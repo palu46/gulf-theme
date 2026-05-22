@@ -4,7 +4,7 @@ All notable changes to the "gulf-theme" extension will be documented in this fil
 
 ## [Unreleased]
 
-## [0.0.1] - 2026-05-22
+## [1.0.0] - 2026-05-22
 
 ### Added
 
