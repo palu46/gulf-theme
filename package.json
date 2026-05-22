@@ -1,7 +1,7 @@
 {
   "name": "gulf-theme",
-  "displayName": "gulf-theme",
-  "description": "This is a vscode theme inspired by the famous porsche x gulf livrey",
+  "displayName": "Gulf Theme",
+  "description": "A VS Code dark theme inspired by the iconic Porsche x Gulf racing livery, blending bold Gulf blue with vivid orange accents for a high-contrast coding experience.",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.120.0"
@@ -12,7 +12,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "gulf-dark",
+        "label": "Gulf Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/gulf-dark-color-theme.json"
       }
