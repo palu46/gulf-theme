@@ -115,7 +115,7 @@
 	"editorLineNumber.activeForeground": "#ff5717",
 	"editorCursor.foreground": "#ff5717",
 	"editor.selectionBackground": "#afd4e84d",
-	"editor.inactiveSelectionBackground": "#3a3d41",
+	"editor.inactiveSelectionBackground": "#3a3d4180",
 	"editor.selectionHighlightBackground": "#afd4e84c",
 	"editor.selectionHighlightBorder": "#afd4e8",
 	"editor.wordHighlightBackground": "#575757b8",
@@ -123,14 +123,14 @@
 	"editor.findMatchBackground": "#00246b",
 	"editor.findMatchBorder": "#ff5717",
 	"editor.findMatchHighlightBackground": "#00246b80",
-	"editor.findRangeHighlightBackground": "#242526",
-	"editor.hoverHighlightBackground": "#242526",
+	"editor.findRangeHighlightBackground": "#24252666",
+	"editor.hoverHighlightBackground": "#24252666",
 	"editor.lineHighlightBackground": "#242526",
-	"editor.rangeHighlightBackground": "#242526",
+	"editor.rangeHighlightBackground": "#24252666",
 	"editorLink.activeForeground": "#ff5717",
 	"editorWhitespace.foreground": "#afd4e84c",
-	"editorIndentGuide.background": "#8384854D",
-	"editorIndentGuide.activeBackground": "#838485",
+	"editorIndentGuide.background1": "#8384854D",
+	"editorIndentGuide.activeBackground1": "#838485",
 	"editorRuler.foreground": "#848484",
 	"editorCodeLens.foreground": "#8C8C8C",
 	"editorBracketMatch.background": "#0064001a",
@@ -242,7 +242,6 @@
 	"quickInputList.focusForeground": "#afd4e8",
 	"quickInputList.focusIconForeground": "#afd4e8",
 	"quickInputList.focusHighlightForeground": "#ff5717",
-	"quickInputList.hoverBackground": "#262728",
 	"terminal.selectionBackground": "#afd4e84c",
 	"terminal.background": "#191A1B",
 	"terminal.border": "#afd4e84c",
@@ -259,19 +258,11 @@
 	"gitDecoration.stageDeletedResourceForeground": "#f48771",
 	"quickInputTitle.background": "#202122",
 	"commandCenter.activeBorder": "#333536",
-	"quickInput.border": "#333536",
-	"gauge.foreground": "#59a4f9",
-	"gauge.background": "#58A4F94D",
-	"gauge.border": "#2A2C2EFF",
-	"gauge.warningForeground": "#e5ba7d",
-	"gauge.warningBackground": "#E3B97E4D",
-	"gauge.errorForeground": "#f48771",
-	"gauge.errorBackground": "#F287724D",
 	"chat.requestBubbleBackground": "#ffffff13",
 	"chat.requestBubbleHoverBackground": "#ffffff22",
-	"chat.inputWorkingBorderColor1": "#ff5717",
-	"chat.inputWorkingBorderColor2": "#afd4e8",
-	"chat.inputWorkingBorderColor3": "#00246b",
+	"chat.inputWorkingBorderColor1": "#ff5717cc",
+	"chat.inputWorkingBorderColor2": "#afd4e8cc",
+	"chat.inputWorkingBorderColor3": "#00246bcc",
 	"editorCommentsWidget.rangeBackground": "#afd4e84c",
 	"editorCommentsWidget.rangeActiveBackground": "#afd4e854",
 	"charts.foreground": "#CCCCCC",
@@ -284,7 +275,7 @@
 	"charts.purple": "#AD80D7",
 	"inlineChat.border": "#00000000",
 	"debugToolBar.border": "#ff5717",
-	"minimap.findMatchHighlight": "#00246b",
+	"minimap.findMatchHighlight": "#00246bcc",
 	"minimap.selectionHighlight": "#afd4e84d",
 	"minimapSlider.background": "#83848533",
 	"minimapSlider.hoverBackground": "#83848566",
@@ -317,9 +308,6 @@
 	"scmGraph.historyItemRefColor": "#ff7403",
 	"scmGraph.historyItemRemoteRefColor": "#56d4dd",
 	"scmGraph.historyItemBaseRefColor": "#b9a4f2",
-	"scmGraph.historyItemGroupLocal": "#ff7403",
-	"scmGraph.historyItemGroupRemote": "#56d4dd",
-	"scmGraph.historyItemGroupBase": "#b9a4f2",
 	"scmGraph.historyItemHoverAdditionsForeground": "#3edd9b",
 	"scmGraph.historyItemHoverDeletionsForeground": "#ff5d73",
 	"scmGraph.historyItemHoverLabelForeground": "#0c1126",
@@ -415,9 +403,7 @@
 	  "scope": "carriage-return",
 	  "settings": {
 		"foreground": "#f0f6fc",
-		"background": "#8b1111",
-		"fontStyle": "italic underline",
-		"content": "^M"
+		"fontStyle": "italic underline"
 	  }
 	},
 	{ "scope": "message.error", "settings": { "foreground": "#ffa198" } },
@@ -478,7 +464,7 @@
 		"meta.diff.header.from-file",
 		"punctuation.definition.deleted"
 	  ],
-	  "settings": { "foreground": "#ffa198", "background": "#490202" }
+	  "settings": { "foreground": "#ffa198" }
 	},
 	{
 	  "scope": ["punctuation.section.embedded"],
@@ -490,15 +476,15 @@
 		"meta.diff.header.to-file",
 		"punctuation.definition.inserted"
 	  ],
-	  "settings": { "foreground": "#7ee787", "background": "#04260f" }
+	  "settings": { "foreground": "#7ee787" }
 	},
 	{
 	  "scope": ["markup.changed", "punctuation.definition.changed"],
-	  "settings": { "foreground": "#ffa657", "background": "#5a1e02" }
+	  "settings": { "foreground": "#ffa657" }
 	},
 	{
 	  "scope": ["markup.ignored", "markup.untracked"],
-	  "settings": { "foreground": "#0d1117", "background": "#79c0ff" }
+	  "settings": { "foreground": "#79c0ff" }
 	},
 	{
 	  "scope": "meta.diff.range",
