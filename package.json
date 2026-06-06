@@ -20,8 +20,13 @@
       {
         "label": "Gulf Dark",
         "uiTheme": "vs-dark",
+        "path": "./themes/gulf-dark-editor-color-theme.json"
+      },
+      {
+        "label": "Gulf Dark (default editor)",
+        "uiTheme": "vs-dark",
         "path": "./themes/gulf-dark-color-theme.json"
-      }
+      },
     ]
   }
 }
