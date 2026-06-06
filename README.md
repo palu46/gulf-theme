@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/version-1.0.1-ff5717?style=plastic" alt="Version 1.0.1">
+  <img src="https://img.shields.io/badge/version-1.0.2-ff5717?style=plastic" alt="Version 1.0.2">
   <img src="https://img.shields.io/badge/theme-VS%20Code%20Dark-afd4e8?style=plastic" alt="VS Code dark theme">
   <img src="https://img.shields.io/badge/VS%20Code-%5E1.120.0-00246b?style=plastic" alt="VS Code 1.120.0 or newer">
 </p>

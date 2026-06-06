@@ -4,6 +4,14 @@ All notable changes to the "gulf-theme" extension will be documented in this fil
 
 ## [Unreleased]
 
+## [1.0.2] - 2026-06-06
+
+### Fixed
+
+- Updated Gulf Dark theme colors to satisfy VS Code transparency requirements for overlay highlights.
+- Replaced deprecated indent guide color keys with the current `editorIndentGuide.*1` keys.
+- Removed invalid theme color IDs and unsupported token color settings so VS Code accepts the theme schema cleanly.
+
 ## [1.0.1] - 2026-05-22
 
 ### Added
